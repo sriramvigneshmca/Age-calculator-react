@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.pa3
+{
+  font-family: Matura MT Script Capitals;
+  color:#ffd633;
+  font-weight: bolder;
+  font-size:270%;
+  font-synthesis: style;  
+  text-decoration: underline;
+
+}
+.particles{
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+.gback{
+  display:flex;
+  justify-content: center;
+  background-color:f708d3ff&noise=140f14&density=94&opacity=77;
+  font-family:Baskerville Old Face;
+/*background-color: hsl(2, 57%, 40%);
+background-color: #026873;
+background-image: linear-gradient(to bottom, #ff1ed8, #d90064, #8f2c22, #482b0d, #181714);*/
+background-image: radial-gradient(circle, #eb1d53, #b42a3e, #802b2e, #4f2522, #211b1a);
+}
+
+.form
+{
+  width:300px;
+  height:200px; 
+  border-radius:13px 15px 10px;
+
+}
+.result
+{
+  display:flex;
+  justify-content: center;
+ /*background-color: #026873;*/
+  font-family:Britannic Bold;
+  font-size: 12px;
+  color:white;
+/*background-color: hsl(2, 57%, 40%);
+background-color: #026873;
+background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);*/
+}
+.size{
+  width:550px;
+  height:130px; 
+  border-radius: 30px/90px;
+  border:3px solid #ffff00;
+
+
+}
+#head
+{
+  font-weight:bold;
+  color:#55ff00;
+  font-family:Showcard Gothic;
+  font-size:25px;
+  text-align: center; 
+}
+
